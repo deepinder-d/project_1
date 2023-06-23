@@ -1,0 +1,756 @@
+body {
+
+
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    height: 1200px;
+    padding-top: 100px;
+background-color: #3a3d41;
+background-image: linear-gradient(62deg, #3a3d41 0%, #58565c 100%);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+.mainbdy {
+    background-color: #cad1d6;
+    background-image: linear-gradient(144deg, #cad1d6 10%, #a6b2c9 100%);
+
+
+    width: 428px;
+    height: 926px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 40px 50px;
+
+    position: relative;
+
+
+
+
+
+}
+
+.backbtn {
+    position: absolute;
+    top: 36px;
+    left: 10px;
+
+}
+
+.bck {
+    background: none;
+    border: none;
+    font-size: 40px;
+    color: #2c3e50;
+
+}
+
+.bck :hover {
+    color: orangered;
+    transform: scale(1.05);
+}
+
+.head h1 {
+    margin: 0;
+
+    font-weight: 800;
+
+
+
+}
+
+.head p {
+    padding: 0px;
+    margin: 0;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.moto {
+    height: 100px;
+    width: 428px;
+    font-style: italic;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #7A7D7F;
+    width: 528px;
+    margin-left: -50px;
+    margin-top: 300px;
+
+
+}
+
+
+
+
+.btns {
+    position: absolute;
+
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    padding-left: none;
+    width: 428px;
+    bottom: 100px;
+
+}
+
+
+
+form {
+    margin-top: 100px;
+   
+
+}
+
+#liftingForm{
+    display: flex;
+    flex-flow: column wrap;
+    justify-items: center;
+}
+
+
+.lift{ 
+    
+    width: 400px;
+    height: 100px;
+    display: inline-flex;
+
+    
+
+
+}
+
+ /*input {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 4px 0;
+    display: inline-block;
+
+    border: none;
+    border-bottom: 2px solid #2c3e50;
+
+    outline: none;
+
+    background: none;
+
+    box-sizing: border-box;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+.gt {
+    background: #F05454;
+    border-radius: 4px;
+    border-style: none;
+    margin-top: 20px;
+    width: 98%;
+
+    color: #fff;
+    cursor: pointer;
+
+    font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 2.5;
+
+
+
+
+
+
+}
+
+.lg {
+    background-color: rgba(240, 84, 84, 0.2);
+    border-radius: 4px;
+    border-style: none;
+    margin-top: 20px;
+    width: 98%;
+
+    color: #fff;
+    cursor: pointer;
+
+    font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 2.5;
+
+
+
+
+
+
+}
+
+#sign {
+    margin-top: 30px;
+    background-color: orangered;
+}
+
+.btns :hover {
+    background-color: orangered;
+    transform: scale(1.05);
+}
+
+.login {
+    
+    margin-top: 200px;
+    text-align: center;
+    font-style: italic;
+
+
+
+}
+
+.login h2 {
+    font-family: "Verdana", sans-serif;
+    font-weight: 900;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+   
+    margin-top: 100px;
+    border: 2px solid;
+
+}
+
+.option {
+
+    margin: 20px;
+
+    border-radius: 4px;
+    border-style: none;
+     background-color: rgba(240, 84, 84, 0.2);
+    margin-top: 20px;
+
+
+
+    color: #fff;
+    cursor: pointer;
+
+}
+
+#con :hover {
+ 
+
+}
+
+#beg {
+    background-color: #F05454;
+}
+
+
+.exbox {
+    margin-top: 20px;
+    vertical-align: baseline;
+    display: inline-flex;
+    height: 100px;
+    width: 410px;
+    border: 3px solid #cad1d6;
+
+
+    align-items: center;
+}
+
+
+
+
+
+.extxt {
+    display: inline-flex;
+    width: 380px;
+    
+
+
+}
+
+.trgticon {
+    width: 80px;
+    height: 80px;
+    background-image: url(images/placeholder.jpg);
+    
+    border-radius: 8px;
+  
+
+
+
+
+}
+
+.trgttxt {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 350px;
+
+}
+
+.trttxt{
+     margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+h4 {
+    margin: 0;
+    
+}
+
+.exercises {
+    height: 645px;
+    overflow: auto;
+    border: 2px solid;
+
+
+}
+
+  /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.exerciselist {
+    height: 720px;
+    overflow: auto;
+    
+
+}
+
+.exlist {
+    
+    display: inline-flex;
+    height: 100px;
+    width: 410px;
+    align-items: center;
+
+
+
+
+}
+
+.chk {
+    width: 50px;
+    height: 25px;
+    position: relative;
+
+    border: 2px solid;
+
+
+}
+
+.optbtn {
+    position: relative;
+
+
+
+
+
+}
+
+.trgt {
+    margin-top: 30px;
+    vertical-align: baseline;
+    display: inline-flex;
+    height: 100px;
+    width: 428px;
+
+   
+    
+
+
+    align-items: center;
+}
+
+.box {
+
+    height: 60px;
+    width: 80px;
+   
+   
+    justify-content: center;
+    display: flex;
+    align-items: center;
+   
+}
+
+.footer {
+    position: absolute;
+    bottom: 0px;
+    background-color: #2c3e50;
+
+    width: 100%;
+    left: 0px;
+    height: 60px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    justify-content: space-evenly;
+    display: inline-flex;
+    align-items: center;
+    padding-bottom: 10px;
+     border-radius: 10px;
+
+}
+
+.strtwork {
+    position: absolute;
+
+    bottom: 90px;
+    width: 100%;
+    left: 0px;
+    height: 30px;
+    justify-content: center;
+
+
+
+    display: inline-flex;
+
+}
+
+.add {
+
+    
+    position: absolute;
+    right: 50px;
+
+}
+
+.addbtn{
+      background: #F05454;
+    border-radius: 4px;
+    border-style: none;
+   
+   
+
+    color: #fff;
+    cursor: pointer;
+
+    font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    
+
+    
+}
+.add :hover {
+    background-color: orangered;
+    transform: scale(1.05);
+}
+
+.optbtn{
+      background: #F05454;
+    border-radius: 4px;
+    border-style: none;
+   
+   
+
+    color: #fff;
+    cursor: pointer;
+
+    font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    
+
+    
+}
+
+
+.startworkoutbtn  {
+      background: #F05454;
+    border-radius: 4px;
+    border-style: none;
+   
+   
+
+    color: #fff;
+    cursor: pointer;
+
+    font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    height: 38px;
+    
+}
+.strtwork :hover {
+    background-color: orangered;
+    transform: scale(1.05);
+    
+}
+
+.box :hover {
+    background-color: orangered;
+    transform: scale(1.05);
+    
+}
+
+.profile,  .excercise, .workout {
+      background: #F05454;
+    border-radius: 4px;
+    border-style: none;
+   
+   
+
+    color: #fff;
+    cursor: pointer;
+
+    font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    height: 38px;
+    
+}
+
+
+.nxt{
+     background-color: #333;
+    border-radius: 4px;
+    border-style: none;
+    
+    margin-bottom: 20px;
+   
+   
+
+    color: #fff;
+    cursor: pointer;
+
+    font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    height: 38px;
+    
+}
+.stop{
+     background-color: #F05454;
+    border-radius: 4px;
+    border-style: none;
+    
+    
+   
+   
+
+    color: #fff;
+    cursor: pointer;
+
+    font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    height: 38px;
+    
+}
+
+
+
+.ttl {
+    margin-top: 0px;
+    vertical-align: baseline;
+    display: inline-flex;
+    height: 80px;
+
+
+
+    align-items: center;
+}
+
+
+
+li {
+    list-style: none;
+    margin-left: -40px;
+
+
+
+
+}
+
+.addexe {
+    position: absolute;
+
+    bottom: 90px;
+    width: 100%;
+    left: 0px;
+    height: 30px;
+    justify-content: center;
+    
+
+
+
+    display: inline-flex;
+
+}
+
+#text {
+    display: none;
+      background-color: #F05454;
+    border-radius: 4px;
+    border-style: none;
+    
+    
+   
+   
+
+    color: #fff;
+    cursor: pointer;
+
+    font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    height: 38px;
+
+}
+
+.addexe :hover {
+    background-color: orangered;
+    transform: scale(1.05);
+    
+}
+
+#timer {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: red;
+}
+
+iframe {
+    border-radius: 10px;
+    border: none;
+}
+
+
+select {
+    /* Reset Select */
+    appearance: none;
+    outline: 0;
+    border: 0;
+    box-shadow: none;
+
+    flex: 1;
+    padding: 0 1em;
+    color: #333;
+
+    cursor: pointer;
+}
+
+.select {
+    position: relative;
+    display: flex;
+    width: 90px;
+    height: 40px;
+    border-radius: .25em;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 80px;
+        background-color: #F05454;
+
+    transition: .25s all ease;
+    pointer-events: none;
+    text-align: center;
+}
+
+.select:hover {
+    color: #f39c12;
+}
+
+.sets {
+    width: 100px;
+
+    height: 100px;
+
+
+
+}
+
+.set {
+    display: inline-flex;
+
+}
+
+#chesttgt{
+    background-image:url(images/chest.png)
+}
+#triceptgt{
+     background-image:url(images/tricep.png)
+    
+}
+
+#benchpress{
+    background-image:url(images/barbell-bench-press.jpg)
+    
+}
+
+#inclinebench{
+    background-image:url(images/inclince-Barbell-bench-press.jpg)
+    
+}
+
+#dumbellpress{
+    background-image: url(images/Dumbbell-Bench-Press-1.jpg)
+}
+
+#pushup{
+    background-image: url(images/perfect-pushup-chest-workout.jpg);
+        
+}
+#dips{
+    background-image: url(images/Standing-Dips.jpg);
+}
+
+#cabletricep{
+    background-image: url(images/Cable-Tricep-Push.jpg);
+    
+}
+
+#triext{
+    background-image: url(images/Lying-Triceps-Extension.jpg);
+}

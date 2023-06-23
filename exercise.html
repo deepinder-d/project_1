@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Workout Builder</title>
+        
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <script src="java.js"></script>
+
+    </head>
+    <body>
+        <div class="mainbdy">
+             <div class="backbtn"><button class="bck" onclick="back1()"><i class="fa fa-caret-left"></i></button></div>
+        
+            
+    <div class="head">
+    
+        <h1>Add Exercises</h1>
+        
+        </div>
+            
+            <div class="trgt">
+                
+                 <input id="searchbar" onkeyup="search_exe()" type="text"
+        name="search" placeholder="Search">
+            
+            </div>
+            
+            <div class="exerciselist" >
+                
+                <div class="exebox">
+                    
+                    <ol id="list">
+                        <li class="elist">
+                
+                    <div  class="exlist">
+                    <div class="trgticon"></div>
+                <div class="trgttxt"><h4>Ab Crunch Machine</h4>
+                    </div>
+                      <input type="checkbox" class="chk" onclick="chkbtn()">
+
+                         
+                    </div>
+                    </li>
+                        
+                             <li class="elist">
+                
+                    <div  class="exlist">
+                    <div class="trgticon"></div>
+                <div class="trgttxt"><h4>Arnold Press</h4>
+                    </div>
+                       <input type="checkbox" class="chk" onclick="chkbtn()">
+                    </div>
+                    </li>
+                             <li class="elist">
+                
+                    <div  class="exlist">
+                    <div class="trgticon"></div>
+                <div class="trgttxt"><h4>Back Extension Machine</h4>
+                    </div>
+                        <input type="checkbox" class="chk" onclick="chkbtn()">
+                    </div>
+                    </li>
+                        
+                             <li class="elist">
+                
+                    <div  class="exlist">
+                    <div class="trgticon"></div>
+                <div class="trgttxt"><h4>Barbell Curl</h4>
+                    </div>
+                        <input type="checkbox" class="chk" onclick="chkbtn()">
+                    </div>
+                    </li>
+                             <li class="elist">
+                
+                    <div  class="exlist">
+                    <div class="trgticon"></div>
+                <div class="trgttxt"><h4>Barbell Front Raise</h4>
+                    </div>
+                        <input type="checkbox" class="chk" onclick="chkbtn()">
+                    </div>
+                    </li>
+                         
+                             <li class="elist">
+                
+                    <div  class="exlist">
+                    <div class="trgticon"></div>
+                <div class="trgttxt"><h4>Barbell Reverse Curl</h4>
+                    </div>
+                        <input type="checkbox" class="chk" onclick="chkbtn()">
+                    </div>
+                    </li>
+                        
+                             <li class="elist">
+                
+                    <div  class="exlist">
+                    <div class="trgticon"></div>
+                <div class="trgttxt"><h4>Barbell Shoulder Press</h4>
+                    </div>
+                       <input type="checkbox" class="chk" onclick="chkbtn()">
+                    </div>
+                    </li>
+                        
+                             <li class="elist">
+                
+                    <div  class="exlist">
+                    <div class="trgticon"></div>
+                <div class="trgttxt"><h4>Bench Press Machine</h4>
+                    </div>
+                       <input type="checkbox" class="chk" onclick="chkbtn()">
+                    </div>
+                    </li>
+                        
+                             <li class="elist">
+                
+                    <div  class="exlist">
+                    <div class="trgticon"></div>
+                <div class="trgttxt"><h4>Bent Over Row</h4>
+                    </div>
+                       <input type="checkbox" class="chk" onclick="chkbtn()">
+                    </div>
+                    </li>
+                        
+                             <li class="elist">
+                
+                    <div  class="exlist">
+                    <div class="trgticon"></div>
+                <div class="trgttxt"><h4>Cabel Chest Press</h4>
+                    </div>
+                        <input type="checkbox" class="chk" onclick="chkbtn()">
+                    </div>
+                    </li>
+                        
+                             <li class="elist">
+                
+                    <div  class="exlist">
+                    <div class="trgticon"></div>
+                <div class="trgttxt"><h4>Cabel Chest Fly</h4>
+                    </div>
+                        <input type="checkbox" class="chk" onclick="chkbtn()">
+                    </div>
+                    </li>
+                        
+                             <li class="elist">
+                
+                    <div  class="exlist">
+                    <div class="trgticon"></div>
+                <div class="trgttxt"><h4>Chest Machine Fly</h4>
+                    </div>
+                        <input type="checkbox" class="chk" onclick="chkbtn()">
+                    </div>
+                    </li>
+                             <li class="elist">
+                
+                    <div  class="exlist">
+                    <div class="trgticon"></div>
+                <div class="trgttxt"><h4>Cabel Row</h4>
+                    </div>
+                        <input type="checkbox" class="chk" onclick="chkbtn()">
+                    </div>
+                    </li>
+                        
+                             <li class="elist">
+                
+                    <div  class="exlist">
+                    <div class="trgticon"></div>
+                <div class="trgttxt"><h4>Chest Press Machine</h4>
+                    </div>
+                       <input type="checkbox" class="chk" onclick="chkbtn()">
+                    </div>
+                    </li>
+                        
+                             <li class="elist">
+                
+                    <div  class="exlist">
+                    <div class="trgticon"></div>
+                <div class="trgttxt"><h4>Chin Ups</h4>
+                    </div>
+                        <input type="checkbox" class="chk" onclick="chkbtn()">
+                    </div>
+                    </li>
+                        
+                      
+                        
+                             <li class="elist">
+                
+                    <div  class="exlist">
+                    <div class="trgticon"></div>
+                <div class="trgttxt"><h4>Deadlift</h4>
+                    </div>
+                        <input type="checkbox" class="chk" onclick="chkbtn()">
+                    </div>
+                    </li>
+                    
+                    </ol>
+                
+                
+                   
+                    </div>
+            
+                
+                
+            
+            
+           
+            
+            
+            </div>
+            <div class="addexe">
+                  <button id="text">Add Excercise</button>
+                
+            
+            </div>
+            
+            <div class="footer">
+                <div class="box"><button class="profile">profile</button></div>
+               <div class="box"><button class="workout" onclick="back1()">workout</button></div>
+                <div class="box"><button class="excercise" style="background-color: orange">excercise</button></div>
+            </div>
+        
+
+
+ 
+
+  
+        
+       
+         </div>
+        
+    </body>
+</html>
+
